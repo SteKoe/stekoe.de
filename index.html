@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>SteKoe.de | Software Engineer</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <title>SteKoe.de | Software Engineer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
 
-  <link href="//fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" integrity="sha256-56IFArwms1YDmG5S9BCBHTUv+xCAgiYUIjDiWtGuwRI=">
 </head>
 <body>
-<div id="app"></div>
+    <div class="bg">
+        <div class="bg__mask"></div>
+        <div class="bg__image"></div>
+    </div>
+    <div class="container">
+        <main class="container__top">
+            <div class="content flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <object data="img/logo.svg" type="image/svg+xml" class="logo"></object>
+                        <div class="inline-code animated">Stephan Köninger.</div>
+                        <div class="text-center bio">
+                            <small>
+                                <span class="job-title">Software Craftsman</span>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="tech-category">
+                            <span class="tech-category__title">Web:</span>
+                            HTML, CSS, AngularJS, Redux, Bootstrap, Material Design, jQuery, mocha, chai.
+                        </div >
+                        <div class="tech-category">
+                            <span class="tech-category__title">Java:</span>
+                            Spring, Hibernate, JPA, JUnit.
+                        </div>
+                        <div class="tech-category">
+                            <span class="tech-category__title">Tools:</span>
+                            npm, Maven, Jenkins, SonarQube, Eclipse, IntelliJ / Webstorm.
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <a href="http://blog.stekoe.de">Blog</a>
+                    |
+                    <a href="http://ocl.stekoe.de">OCL.js</a>
+                </p>
+            </div>
+        </main>
+        <footer class="container__bottom">
+            <div class="container__bottom_left">
+                <a href="https://github.com/SteKoe" target="_blank">
+                    <i class="fa fa-github icon"></i>
+                </a>
+                <a href="https://twitter.com/s_koeninger" target="_blank">
+                    <i class="fa fa-twitter icon"></i>
+                </a>
+                <a href="https://www.xing.com/profile/Stephan_Koeninger" target="_blank">
+                    <i class="fa fa-xing icon"></i>
+                </a>
+                <a href="https://www.codearcs.de" target="_blank" class="separator logo-trans-75">
+                    <img src="img/codearcs-logo.png">
+                </a>
+            </div>
+            <div class="container__bottom_center">
+                &copy; by Stephan Köninger<br>
+                <span id="bg-image-source"></span>
+            </div>
+            <div class="container__bottom_right">
+                &nbsp;
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js" type="application/javascript" integrity="sha256-6YH3Ret90E43hP+NWF9yaBPSvbem62v2W/fPbMeVajQ="></script>
 </body>
 </html>
