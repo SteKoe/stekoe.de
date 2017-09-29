@@ -28,7 +28,7 @@
     <p class="text-center">
       <a href="http://blog.stekoe.de">Blog</a>
       |
-      <router-link to="/projects">Projects</router-link>
+      <a href="http://ocl.stekoe.de/">OCL.js</a>
     </p>
   </div>
 </template>
