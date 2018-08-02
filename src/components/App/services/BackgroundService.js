@@ -1,6 +1,8 @@
 import Backgrounds from "../components/Background/backgrounds.json";
 
 class BackgroundService {
+    _currentBackground: any;
+
     getBackgroundImageInfo() {
         let currentBackground = this._currentBackground;
 
@@ -12,9 +14,12 @@ class BackgroundService {
     }
 
     setBackgroundImage() {
-        const randomIndex = Math.floor(Math.random() * Backgrounds.length);
-        this._currentBackground = Backgrounds[randomIndex];
+        this._currentBackground = Backgrounds[this.getRandomIndex()];
         return this._currentBackground;
+    }
+
+    getRandomIndex(): number {
+        return Math.floor(Math.random() * Backgrounds.length);
     }
 }
 
