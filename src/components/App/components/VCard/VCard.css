@@ -1,0 +1,29 @@
+.vcard {
+    padding: 30px 20px 14px 20px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 240px;
+    width: 250px;
+}
+
+.vcard__logo {
+    display: block;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.inline-code {
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 1.3em;
+    text-align: center;
+    white-space: pre;
+}
+
+.bio {
+    margin-top: 0;
+}
+
+.bio .job-title {
+    text-transform: uppercase;
+}

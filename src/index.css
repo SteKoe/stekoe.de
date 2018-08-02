@@ -1,5 +1,25 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Maven Pro', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#root {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: rgba(255, 255, 255, 1);
 }
