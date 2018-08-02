@@ -15,17 +15,17 @@ class Footer extends Component {
         return (
             <footer className="footer__bottom">
                 <div className="footer__bottom_left">
-                    <a href="https://github.com/SteKoe" target="_blank">
+                    <a href="https://github.com/SteKoe" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-github icon"></i>
                     </a>
-                    <a href="https://twitter.com/s_koeninger" target="_blank">
+                    <a href="https://twitter.com/s_koeninger" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-twitter icon"></i>
                     </a>
-                    <a href="https://www.xing.com/profile/Stephan_Koeninger" target="_blank">
+                    <a href="https://www.xing.com/profile/Stephan_Koeninger" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-xing icon"></i>
                     </a>
-                    <a href="https://www.codearcs.de" target="_blank" className="separator logo-trans-75">
-                        <img src={logoCodeArcs}/>
+                    <a href="https://www.codearcs.de" target="_blank" rel="noopener noreferrer" className="separator logo-trans-75">
+                        <img src={logoCodeArcs} alt="CodeArcs Logo"/>
                     </a>
                 </div>
                 <div className="footer__bottom_center">

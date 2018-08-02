@@ -12,7 +12,7 @@ class VCard extends Component {
             <div className="vcard">
                 <div className="vcard_flipper">
                     <div className="front">
-                        <img src={logo} className="vcard__logo"/>
+                        <img src={logo} className="vcard__logo" alt=""/>
                         <div className="inline-code animated">
                             <Typist>
                                 Stephan Köninger.
